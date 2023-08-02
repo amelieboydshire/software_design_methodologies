@@ -2,14 +2,34 @@
 
 1. In structured design, “coupling” and “cohesion” are two key principles that improve the quality and maintainability of a software system by defining how modules and components should interact with each other.
 
-**Coupling** is the degree of interdependence *between* modules or components in a software system. Tight coupling refers to modules that are closely connected such that changes in one module may affect other modules. Low coupling refers to modules that are independent and thus changes to one module have little impact on other modules. 
-**Cohesion** is the degree to which elements *within* a module work together to fulfil a single, well-defined purpose. High cohesion refers to elements which are closely related with a specific responsibility while low cohesion refers to elements which are loosely related and serve multiple purposes.  
+- **Coupling** is the degree of interdependence *between* modules or components in a software system. Tight coupling refers to modules that are closely connected such that changes in one module may affect other modules. Low coupling refers to modules that are independent and thus changes to one module have little impact on other modules. 
 
-2. Top-down and bottom-up design are two contrasting approaches to designing and building software systems. They differ in their direction of development and the level of abstraction they start with.  
+- **Cohesion** is the degree to which elements *within* a module work together to fulfil a single, well-defined purpose. High cohesion refers to elements which are closely related with a specific responsibility while low cohesion refers to elements which are loosely related and serve multiple purposes.  
 
-**Top-down design** is a method for developing software that starts with a broad overview of the functionality and structure of the system before gradually breaking it down into smaller, more manageable components, each of which stands for a distinct task or responsibility. This process is continued until the entire system is defined and implemented. 
-**Bottom-up design** is a strategy for developing software that starts with the creation of individual components with clearly defined functionalities. These smaller pieces are then combined and integrated to form larger, more complex modules, which ultimately result in the development of the entire software system. 
- 
-Top-down design best describes a function-oriented design since it relies on decomposing the system with a centralised state into a set of interacting functions.
+2. Top-down and bottom-up design are two contrasting approaches to designing and building software systems. They differ in their direction of development and the level of abstraction they start with. 
 
-3. Class diagrams best serve object-oriented design since they illustrate the static relationship between classes and objects. Conversely, the principles and concepts underlying structured design and function-oriented design do not involve the use of classes or objects like those depicted in class diagrams.   
+- **Top-down design** is a method for developing software that starts with a broad overview of the functionality and structure of the system before gradually breaking it down into smaller, more manageable components, each of which stands for a distinct task or responsibility. This process is continued until the entire system is defined and implemented. 
+
+- **Bottom-up design** is a strategy for developing software that starts with the creation of individual components with clearly defined functionalities. These smaller pieces are then combined and integrated to form larger, more complex modules, which ultimately result in the development of the entire software system
+
+- Top-down design best describes a function-oriented design since it relies on decomposing the system with a centralised state into a set of interacting functions.
+
+3. Class diagrams best serve object-oriented design since they illustrate the static relationship between classes and objects. Conversely, the principles and concepts underlying structured design and function-oriented design do not involve the use of classes or objects like those depicted in class diagrams. 
+
+4. The four pillars of object-oriented programming are Abstraction, Encapsulation, Inheritance and Polymorphism.  
+
+- **Abstraction** handles complexity by hiding unnecessary details from the user which enables the user to implement more complex logic on top of the provided abstraction without understanding or thinking about the hidden complexity. 
+
+- **Encapsulation** refers to the bundling of data, along with the methods that operate on that data, into a single unit. 
+
+- **Inheritance** is a mechanism where you can derive a class from a parent class for a hierarchy of classes that share a set of attributes and methods. 
+
+- **Polymorphism** is the ability of objects to take on different forms or behave differently depending on the context in which they are used.  
+
+5. The strategy pattern is a behavioural design pattern which allows you to define a set of interchangeable algorithms or strategies and encapsulate each one as a separate class. This enables the client to select an algorithm to be used at runtime without affecting the rest of the program. 
+
+- In an object-oriented system, the strategy pattern is typically implemented using interfaces, abstract classes, and polymorphism.  
+
+- In a functional system, rather than needing an interface you would use functions to implement different strategies using higher-order functions which can return other functions or take functions as arguments. 
+
+6. For creating a new online payment system that is not tied to a particular sector and needs to work effectively across various scenarios, object-oriented design methodology would be the most appropriate design methodology. Object-Orientated programming allows for the creation of abstract classes and interfaces that define common behaviours and contracts. This would enable the payment system to support various payment methods and gateways through polymorphism, providing flexibility for different payment scenarios without modifying the core system. The modular approach in object-oriented programming allows for easy reusability of code, enabling the payment system to be adapted and reused across different sectors without significant changes.  
