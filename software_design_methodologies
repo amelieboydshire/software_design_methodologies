@@ -1,0 +1,15 @@
+# Software Design Methodologies
+
+1. In structured design, “coupling” and “cohesion” are two key principles that improve the quality and maintainability of a software system by defining how modules and components should interact with each other.
+
+**Coupling** is the degree of interdependence *between* modules or components in a software system. Tight coupling refers to modules that are closely connected such that changes in one module may affect other modules. Low coupling refers to modules that are independent and thus changes to one module have little impact on other modules. 
+**Cohesion** is the degree to which elements *within* a module work together to fulfil a single, well-defined purpose. High cohesion refers to elements which are closely related with a specific responsibility while low cohesion refers to elements which are loosely related and serve multiple purposes.  
+
+2. Top-down and bottom-up design are two contrasting approaches to designing and building software systems. They differ in their direction of development and the level of abstraction they start with.  
+
+**Top-down design** is a method for developing software that starts with a broad overview of the functionality and structure of the system before gradually breaking it down into smaller, more manageable components, each of which stands for a distinct task or responsibility. This process is continued until the entire system is defined and implemented. 
+**Bottom-up design** is a strategy for developing software that starts with the creation of individual components with clearly defined functionalities. These smaller pieces are then combined and integrated to form larger, more complex modules, which ultimately result in the development of the entire software system. 
+ 
+Top-down design best describes a function-oriented design since it relies on decomposing the system with a centralised state into a set of interacting functions.
+
+3. Class diagrams best serve object-oriented design since they illustrate the static relationship between classes and objects. Conversely, the principles and concepts underlying structured design and function-oriented design do not involve the use of classes or objects like those depicted in class diagrams.   
